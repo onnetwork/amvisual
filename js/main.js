@@ -117,6 +117,16 @@
 
 })(jQuery);
 
+$(document).ready(function() {
+   $("#carouselServices").swiperight(function() {
+      $(this).carousel('prev');
+    });
+   $("#carouselServices").swipeleft(function() {
+      $(this).carousel('next');
+   });
+});
+
+
 // Initiate the wowjs animation library
   new WOW().init();
   ////////
