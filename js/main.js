@@ -117,6 +117,12 @@
 
 })(jQuery);
 
+
+// Initiate the wowjs animation library
+  new WOW().init();
+  ////////
+
+  
 $(document).ready(function() {
    $("#carouselServices").swiperight(function() {
       $(this).carousel('prev');
@@ -126,7 +132,3 @@ $(document).ready(function() {
    });
 });
 
-
-// Initiate the wowjs animation library
-  new WOW().init();
-  ////////
